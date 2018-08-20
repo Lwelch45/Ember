@@ -8,6 +8,7 @@ set(PACKAGE_TARNAME   "${PACKAGE_NAME}-${PACKAGE_VERSION}")
 set(PACKAGE_BUGREPORT "https://github.com/Lwelch45/Ember/issues")
 project(${PACKAGE_NAME} CXX C)
 
+set(CMAKE_CXX_COMPILER /usr/bin/g++-7 CACHE PATH "" FORCE)
 # 150+ tests in the root folder anyone? No? I didn't think so.
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
