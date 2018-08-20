@@ -1,0 +1,3 @@
+[submodule "ember/third_party/seastar"]
+	path = ember/third_party/seastar
+	url = https://github.com/scylladb/seastar.git
