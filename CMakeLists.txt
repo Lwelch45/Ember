@@ -11,7 +11,6 @@ project(${PACKAGE_NAME} CXX C)
 # 150+ tests in the root folder anyone? No? I didn't think so.
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
-cmake_policy(SET CMP0065 OLD)
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} -v")
 set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g")
